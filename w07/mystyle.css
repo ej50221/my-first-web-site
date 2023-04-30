@@ -1,0 +1,16 @@
+/* mystyle.css */
+ #grid {
+     overflow: hidden;
+     border-top:5px orange solid;
+     border-bottom: 5px orange solid;
+     padding:10px;
+     margin: 50px;
+ }
+ a{text-decoration: none;}
+ li {list-style: none;}
+ img {float: left; margin-right:10px;}
+ @media(max-width:500px){
+     #grid {border-top: hidden;
+    border-bottom: hidden;}
+ }
+ @media(max-width:1030px){#grid {border-bottom: hidden;}}
