@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>
+      고양이
+    </h1>
+    <h2>
+      종류
+    </h2>
+    <ul>
+    <script>
+     cat = ["메인쿤", "러시안블루", "아비니시안", "브리티시 숏헤어", "터키시 앙고라"];
+     imgList = ["1.jpeg", "2.jpg", "3.jpeg", "4.jpeg", "5.png"];
+     var i = 0;
+     while(i < cat.length){
+      document.write('<li><a href="https://ko.wikipedia.org/wiki/' + cat[i]+ '">' + cat[i] + '</a></li>');
+      document.write('<li><img src="' + imgList[i] + '"</li>');
+      i=i+1;}
+    </script>
+    </ul>
+    <h3>
+      count
+    </h3>
+    <script>
+     document.write(cat.length);
+    </script>
+    <h3>
+      push
+    </h3>
+    <script>
+    cat.push("메인쿤");
+    document.write(cat[2]);
+    </script>
+  </body>
+</html>
